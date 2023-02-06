@@ -1,0 +1,44 @@
+body{
+    background-image: url(background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;  
+    font-family: Tahoma;
+    font-size: 16px;    
+  }
+  
+h1, h2, h3, h4, p {
+  color: white;
+}
+
+h1, h4 {
+  margin: 20px 0 8px;
+}
+  
+form {
+  background-color: rgba(111, 111, 200, 0.4);
+  color: white;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.area {
+  width: 90%;
+  min-height: 2em;
+}
+
+.block {
+  border: 3px white;
+  padding: 2px 22%;
+}
+
+.center {
+  text-align: center;
+}
+
+.inline {
+  display: block;
+  width: unset;
+  margin: 0 0.5em 0 0;
+}
